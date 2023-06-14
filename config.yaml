@@ -76,22 +76,50 @@ menu:
       name: 帖集
       url: posts/
       weight: 1
+    - identifier: bugku
+      name: bugku
+      url: bugku/
+      weight: 2
+    - identifier: buuoj
+      name: buuoj
+      url: buuoj/
+      weight: 3
     - identifier: ctf.show
       name: ctf.show
       url: ctf.show/
-      weight: 2
+      weight: 5
+    - identifier: ctfhub
+      name: ctfhub
+      url: ctfhub/
+      weight: 4
+    - identifier: ichunqiu
+      name: ichunqiu
+      url: ichunqiu/
+      weight: 6
+    - identifier: pwnhub
+      name: pwnhub
+      url: pwnhub/
+      weight: 7
+    - identifier: qsnctf
+      name: qsnctf
+      url: qsnctf/
+      weight: 8
+    - identifier: xctf
+      name: xctf
+      url: xctf/
+      weight: 9
     - identifier: tags
       name: 标签
       url: tags/
-      weight: 3
+      weight: 108
     - identifier: archives
       name: 存档
       url: archives/
-      weight: 4
+      weight: 109
     - identifier: about
       name: 关于
       url: about/
-      weight: 5
+      weight: 110
   footer:
     - identifier: vulnhub.cn
       url: "https://www.vulnhub.cn/"
