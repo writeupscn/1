@@ -1,7 +1,7 @@
-baseURL: https://example.com
-languageCode: en-us
+baseURL: https://1.writeups.cn/
+languageCode: zh-cn
 defaultContentLanguage: zh
-title: Fluency
+title: WP存档
 theme: fluency
 enableRobotsTXT: true
 summaryLength: 100 # Configure how long the post summary should be on the homepage.
@@ -43,7 +43,7 @@ params:
   
   # set number of post of specify type of content
   pageSize:
-    index: 5
+    index: 10
     list: 10
     archives: 20
 
@@ -52,8 +52,8 @@ params:
   #   this is a license
   #   <p>another line</p>
 
-  disableSocialShare: false
-  disableIndexSummary: false
+  disableSocialShare: true
+  disableIndexSummary: true
   disableAnchorHeading: false
   disableBreadcrumb: false
 
@@ -76,25 +76,29 @@ menu:
       name: posts
       url: posts/
       weight: 1
+    - identifier: ctf.show
+      name: ctf.show
+      url: ctf.show/
+      weight: 2
     - identifier: tags
       name: tags
       url: tags/
-      weight: 2
+      weight: 3
     - identifier: archives
       name: archives
       url: archives/
-      weight: 3
+      weight: 4
     - identifier: about
       name: about
       url: about/
-      weight: 4
-  footer:
-    - identifier: twitter
-      url: "https://twitter.com/gohugoio"
-      name: Twitter
-    - identifier: github
-      url: "https://github.com/gohugoio"
-      name: Github
+      weight: 5
+  # footer:
+    # - identifier: twitter
+    #   url: "https://twitter.com/gohugoio"
+    #   name: Twitter
+    # - identifier: github
+    #   url: "https://github.com/gohugoio"
+    #   name: Github
 
 # Privacy configurations: https://gohugo.io/about/hugo-and-gdpr/
 privacy:
