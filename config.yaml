@@ -33,7 +33,7 @@ taxonomies:
 #   posts: :section/:slug
 
 params:
-  author: Hugo Author
+  author: G
   description: "A fluent Hugo theme for writers and bloggers."
   # copyright: "© 2021 &nbsp;<a href='https://github.com/wayjam/hugo-theme-fluency'>Hugo Theme Fluency</a>"
 
